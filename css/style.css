@@ -715,3 +715,19 @@ bg-email::placeholder {
 .box {
   margin-left: 80px;
 }
+/**
+  |============================
+  | modal window
+  |============================
+*/
+
+.text-modal {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em; 
+  color: var(--color-2);
+  margin-bottom: 16px;
+  
+}
