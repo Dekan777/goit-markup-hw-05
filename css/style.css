@@ -81,11 +81,9 @@ ul {
 }
 
 .link-card:hover p,
-.link-card:focus p  {
+.link-card:focus p {
   transform: translateY(0%);
-
 }
-
 
 .nav-logo-header {
   font-family: "Raleway", sans-serif;
@@ -98,8 +96,6 @@ ul {
   margin-right: 76px;
   display: inline-block;
 }
-
-
 
 .link {
   text-decoration: none;
@@ -119,7 +115,6 @@ ul {
 .image {
   position: relative;
   overflow: hidden;
-
 }
 .text-image {
   position: absolute;
@@ -134,7 +129,6 @@ ul {
   width: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 .list {
   list-style: none;
@@ -178,8 +172,6 @@ ul {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 100%;
 }
-
-
 
 .nav-studio:hover,
 .nav-studio:focus {
@@ -504,12 +496,12 @@ ul {
 }
 
 .title-five {
-  color: var(--navyblue, #2E2F42);
+  color: var(--navyblue, #2e2f42);
   text-align: center;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 0.72px;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-top: 130px;
   margin-bottom: 72px;
   font-family: Roboto;
@@ -651,11 +643,67 @@ ul {
   background-color: #404bbf;
   border: none;
 }
-.button-modal:hover > .modal-link-close, 
-  .button-modal:focus > .modal-link-close {
+.button-modal:hover > .modal-link-close,
+.button-modal:focus > .modal-link-close {
   fill: #ffffff;
 }
 
 .modal-link-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/**
+  |============================
+  | footer
+  |============================
+*/
+
+.box-component1 {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.bg {
+  display: flex;
+  gap: 24px;
+}
+.bg-text {
+}
+.bg-email {
+  width: 264px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+bg-emailt::placeholder {
+  color: #ffffff;
+}
+.bg-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
+}
+.bg-icons {
+  margin-left: 16px;
 }
