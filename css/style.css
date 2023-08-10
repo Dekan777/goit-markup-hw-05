@@ -729,5 +729,24 @@ bg-email::placeholder {
   letter-spacing: 0.02em; 
   color: var(--color-2);
   margin-bottom: 16px;
+
+}
+
+.modal-form-name {
+  margin-bottom: 8px;
+
+}
+
+.modal-label-name {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-8);
+  display: block;
+  margin-bottom: 4px;
+
+}
+.modl-form-icon {
+  position: relative;
   
 }
