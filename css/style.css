@@ -683,6 +683,8 @@ ul {
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+
+
 }
 bg-emailt::placeholder {
   color: #ffffff;
@@ -706,4 +708,7 @@ bg-emailt::placeholder {
 }
 .bg-icons {
   margin-left: 16px;
+}
+.box {
+  margin-left: 80px;
 }
