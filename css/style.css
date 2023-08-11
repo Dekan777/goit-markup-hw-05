@@ -782,11 +782,13 @@ bg-email::placeholder {
   letter-spacing: 0.04em;
   color: var(--color-8);
   display: block;
-  margin-bottom: 4px;
+ 
+  margin-bottom: 16px
 }
 
 .modal-label-name {
   width: 100%;
+  margin-bottom: 4px; 
 }
 
 .modal-textarea-text {
@@ -826,5 +828,5 @@ bg-email::placeholder {
     align-items: center;
     justify-content: center;
     fill: transparent; 
-    
+
 }
