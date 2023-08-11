@@ -601,9 +601,6 @@ ul {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-   
-    
-    
 }
 .is-hidden {
   opacity: 0;
@@ -623,7 +620,6 @@ ul {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
-
 }
 .button-modal {
   position: absolute;
@@ -676,7 +672,6 @@ ul {
   gap: 24px;
 }
 .bg-text {
-
 }
 .bg-email {
   width: 264px;
@@ -689,8 +684,7 @@ ul {
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-color: #ffffff; 
-
+  color: #ffffff;
 }
 bg-email::placeholder {
   color: #ffffff;
@@ -729,15 +723,13 @@ bg-email::placeholder {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   color: var(--color-2);
   margin-bottom: 16px;
-
 }
 
 .modal-form-name {
   margin-bottom: 8px;
-
 }
 
 .modal-label-name {
@@ -747,37 +739,33 @@ bg-email::placeholder {
   color: var(--color-8);
   display: block;
   margin-bottom: 4px;
-
 }
 .modl-form-icon {
   position: relative;
-  
 }
 .modal-row-icon {
   position: relative;
-  
 }
 .modal-row-input {
   width: 100%;
   height: 40px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 4px; 
+  border-radius: 4px;
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
-
 
 .modal-row-input:focus,
-.modal-row-input:focus  > .modal-icon
-{
-  border-color: #4D5AE5;
-  fill: #4D5AE5;
+.modal-textarea-text {
+  border-color: #4d5ae5;
 }
 
-
+.modal-row-input:focus,
+.modal-textarea-text > .modal-icon {
+  fill: #4d5ae5;
+}
 
 .modal-icon {
   position: absolute;
@@ -785,7 +773,6 @@ bg-email::placeholder {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .modal-row-comment {
@@ -800,4 +787,44 @@ bg-email::placeholder {
 
 .modal-label-name {
   width: 100%;
+}
+
+.modal-textarea-text {
+  width: 100%;
+  height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 8px 16px;
+  outline: transparent;
+  resize: none;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-box {
+  margin-bottom: 24px;
+}
+.modal-label-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--color-8);
+}
+.modal-label-privat {
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent; 
+    
 }
