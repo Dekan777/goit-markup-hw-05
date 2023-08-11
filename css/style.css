@@ -1,8 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-6);
-  background-color: var(--color-4);
-}
 
 :root {
   --color-1: #4d5ae5;
@@ -13,6 +8,11 @@ body {
   --color-6: #434455;
   --color-7: #e7e9fc;
   --color-8: #8e8f99;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-6);
+  background-color: var(--color-4);
 }
 
 img {
@@ -767,8 +767,6 @@ bg-email::placeholder {
   fill: #4d5ae5;
 }
 
-
-
 .modal-icon {
   position: absolute;
   left: 16px;
@@ -827,7 +825,6 @@ bg-email::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
 }
 .modal-link {
   color: var(--color-1);
