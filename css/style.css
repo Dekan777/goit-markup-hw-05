@@ -776,13 +776,13 @@ bg-email::placeholder {
 }
 
 .modal-row-comment {
-  margin-bottom: 16px;
+ margin-bottom: 16px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-8);
   display: block;
-  margin-bottom: 16px;
+ 
 }
 
 .modal-label-name {
