@@ -758,7 +758,7 @@ bg-email::placeholder {
 }
 /**
   |============================
-  | modal hoover, focus
+  | modal hoover, focus, box
   |============================
 */
 .modal-row-input:focus + .modal-icon,
@@ -766,6 +766,8 @@ bg-email::placeholder {
   border-color: #4d5ae5;
   fill: #4d5ae5;
 }
+
+
 
 .modal-icon {
   position: absolute;
@@ -825,6 +827,7 @@ bg-email::placeholder {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  
 }
 .modal-link {
   color: var(--color-1);
