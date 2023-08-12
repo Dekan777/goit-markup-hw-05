@@ -868,9 +868,6 @@ bg-email::placeholder {
   fill: #F4F4FD;
 }
 
-.modal-box-icon {
-  margin: 0;
-}
 
 /* только чекбоксы 
 input[type="checkbox"]:checked + .modal-label-privat {
