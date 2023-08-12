@@ -862,6 +862,30 @@ bg-email::placeholder {
   margin-right: auto;
 }
 
+.modal-input-box:checked + .modal-label-text > .modal-label-privat {
+  background-color: var(--color-3);
+  border: none;
+  fill: #F4F4FD;
+}
+
+.modal-box-icon {
+  margin: 0;
+}
+
+/* только чекбоксы 
+input[type="checkbox"]:checked + .modal-label-privat {
+  background-color: var(--color-3);
+  border: none;
+  fill: #F4F4FD;
+}
+
+#user-privacy:checked + .modal-label-privat {
+  background-color: var(--color-3);
+  border: none;
+  fill: #F4F4FD;
+}
+*/
+/*
 
 .modal-input-box: + .modal-label-privat {
   background-color: var(--color-3);
@@ -870,10 +894,9 @@ bg-email::placeholder {
 }
 
 
-
-
 input[type=checkbox] {
   width: 16px;
   height: 16px;
   border: none
 }
+*/
