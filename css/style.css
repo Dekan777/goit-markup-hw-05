@@ -827,9 +827,7 @@ input.bg-email::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-8);
-
   display: inline-flex;
-
   align-items: center;
 }
 
@@ -870,10 +868,7 @@ input.bg-email::placeholder {
   background-color: #4d5ae5;
   border: none;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+ 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   margin-right: auto;
@@ -884,14 +879,19 @@ input.bg-email::placeholder {
   background-color: var(--color-3);
 }
 
-.modal-input-box:checked + .modal-label-text > .modal-label-privat {
-  background-color: var(--color-3);
-  border: none;
+ .modal-input-box:checked + .modal-label-text > .modal-label-privat {
   
-}
+  border: none;
+  fill: var(--color-5);
+  background-color: var(--color-3);
+  
+} 
+
+
 
 .modal-box-icon {
   width: 16px;
   height: 16px;
   display: inline-flex;
+ 
 }
