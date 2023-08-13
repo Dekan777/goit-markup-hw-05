@@ -845,7 +845,7 @@ input.bg-email::placeholder {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+    display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -885,6 +885,8 @@ input.bg-email::placeholder {
 
 .modal-input-box:checked + .modal-label-text > .modal-label-privat {
   background-color: var(--color-3);
+  border: none;
+  
 }
 
 .modal-box-icon {
