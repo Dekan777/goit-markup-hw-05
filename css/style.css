@@ -827,7 +827,7 @@ input.bg-email::placeholder {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-8);
-  display: inline-flex;
+  display: block;
   align-items: center;
 }
 
@@ -887,7 +887,6 @@ input.bg-email::placeholder {
 }
 
 .modal-box-icon {
-  width: 16px;
-  height: 16px;
+ 
   display: inline-flex;
 }
